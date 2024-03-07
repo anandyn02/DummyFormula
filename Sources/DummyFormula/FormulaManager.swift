@@ -9,7 +9,7 @@ open class FormulaManager {
     
     public func fetchjson() -> URL? {
         
-        let path = Bundle.main.url(forResource: "20230022", withExtension: "json")
+        let path = Bundle.module.url(forResource: "20230022", withExtension: "json")
         return path
     }
     
