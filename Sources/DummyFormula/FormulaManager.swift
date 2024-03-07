@@ -3,7 +3,7 @@
 
 import Foundation
 
-public class FormulaManager {
+open class FormulaManager {
     
     public func fetchjson() -> URL? {
         
